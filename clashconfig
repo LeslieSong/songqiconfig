@@ -912,7 +912,6 @@ rules:
   - PROCESS-NAME,WebTorrent,DIRECT
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
-  - RULE-SET,reject,REJECT
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
   - RULE-SET,cncidr,DIRECT
