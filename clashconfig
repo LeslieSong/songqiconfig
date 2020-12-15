@@ -653,7 +653,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-proxy-groups
+proxy-group:
   - 
     name: Proxy
     type: select
