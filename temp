@@ -88,6 +88,46 @@ proxies:
       - h2
       - http/1.1
   - 
+    name: Germany-DE2-1-Rate:1.0
+    type: trojan
+    server: de2-1.sstr-api.xyz
+    port: 443
+    password: x3MdzdVvaffC97yuHt
+    alpn:
+      - h2
+      - http/1.1
+    skip-cert-verify: true
+  - 
+    name: Germany-DE2-2-Rate:1.0
+    type: trojan
+    server: de2-2.sstr-api.xyz
+    port: 443
+    password: x3MdzdVvaffC97yuHt
+    alpn:
+      - h2
+      - http/1.1
+    skip-cert-verify: true
+  - 
+    name: Germany-DE2-3-Rate:1.0
+    type: trojan
+    server: de2-3.sstr-api.xyz
+    port: 443
+    password: x3MdzdVvaffC97yuHt
+    alpn:
+      - h2
+      - http/1.1
+    skip-cert-verify: true
+  - 
+    name: Germany-DE2-4-Rate:1.0
+    type: trojan
+    server: de2-4.sstr-api.xyz
+    port: 443
+    password: x3MdzdVvaffC97yuHt
+    alpn:
+      - h2
+      - http/1.1
+    skip-cert-verify: true
+  - 
     name: Estonia-EE1-1-Rate:0.1
     type: trojan
     server: ee1-1.sstr-api.xyz
