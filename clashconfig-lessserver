@@ -15,114 +15,6 @@ dns:
     - tls://dns.google
 proxies:
   - 
-    name: Australia-AU1-1-Rate:1.0
-    type: trojan
-    server: au1-1.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Australia-AU1-2-Rate:1.0
-    type: trojan
-    server: au1-2.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Australia-AU1-3-Rate:1.0
-    type: trojan
-    server: au1-3.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Australia-AU1-4-Rate:1.0
-    type: trojan
-    server: au1-4.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Germany-DE1-1-Rate:1.0
-    type: trojan
-    server: de1-1.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Germany-DE1-2-Rate:1.0
-    type: trojan
-    server: de1-2.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Germany-DE1-3-Rate:1.0
-    type: trojan
-    server: de1-3.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Germany-DE1-4-Rate:1.0
-    type: trojan
-    server: de1-4.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Estonia-EE1-1-Rate:0.1
-    type: trojan
-    server: ee1-1.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Estonia-EE1-2-Rate:0.1
-    type: trojan
-    server: ee1-2.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Estonia-EE1-3-Rate:0.1
-    type: trojan
-    server: ee1-3.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Estonia-EE1-4-Rate:0.1
-    type: trojan
-    server: ee1-4.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
     name: UnitedStates-FM1-1-Rate:1.5
     type: trojan
     server: fm1-1.sstr-api.xyz
@@ -261,114 +153,6 @@ proxies:
     name: Taiwan-TW1-4-Rate:0.5
     type: trojan
     server: tw1-4.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Japan-TY1-1-Rate:1.0
-    type: trojan
-    server: ty1-1.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Japan-TY1-2-Rate:1.0
-    type: trojan
-    server: ty1-2.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Japan-TY1-3-Rate:1.0
-    type: trojan
-    server: ty1-3.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Japan-TY1-4-Rate:1.0
-    type: trojan
-    server: ty1-4.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Japan-TY2-1-Rate:1.0
-    type: trojan
-    server: ty2-1.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Japan-TY2-2-Rate:1.0
-    type: trojan
-    server: ty2-2.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Japan-TY2-3-Rate:1.0
-    type: trojan
-    server: ty2-3.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Japan-TY2-4-Rate:1.0
-    type: trojan
-    server: ty2-4.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Japan-TY2-5-Rate:1.0
-    type: trojan
-    server: ty2-5.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Japan-TY2-6-Rate:1.0
-    type: trojan
-    server: ty2-6.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Japan-TY2-7-Rate:1.0
-    type: trojan
-    server: ty2-7.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Japan-TY2-8-Rate:1.0
-    type: trojan
-    server: ty2-8.sstr-api.xyz
     port: 443
     password: x3MdzdVvaffC97yuHt
     alpn:
@@ -518,141 +302,6 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - 
-    name: Netherlands-NL1-1-Rate:0.1
-    type: trojan
-    server: nl1-1.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Netherlands-NL1-2-Rate:0.1
-    type: trojan
-    server: nl1-2.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Netherlands-NL1-3-Rate:0.1
-    type: trojan
-    server: nl1-3.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Netherlands-NL1-4-Rate:0.1
-    type: trojan
-    server: nl1-4.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Netherlands-NL1-5-Rate:0.1
-    type: trojan
-    server: nl1-5.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Netherlands-NL1-6-Rate:0.1
-    type: trojan
-    server: nl1-6.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Netherlands-NL1-7-Rate:0.1
-    type: trojan
-    server: nl1-7.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Netherlands-NL1-8-Rate:0.1
-    type: trojan
-    server: nl1-8.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: UnitedKingdom-UK1-1-Rate:1.0
-    type: trojan
-    server: uk1-1.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: UnitedKingdom-UK1-2-Rate:1.0
-    type: trojan
-    server: uk1-2.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: UnitedKingdom-UK1-3-Rate:1.0
-    type: trojan
-    server: uk1-3.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: UnitedKingdom-UK1-4-Rate:1.0
-    type: trojan
-    server: uk1-4.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: UnitedStates-V6-1-Rate:0.1
-    type: trojan
-    server: v6-1.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Japan-V6-2-Rate:1.0
-    type: trojan
-    server: v6-2.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
-  - 
-    name: Japan-V6-3-Rate:1.0
-    type: trojan
-    server: v6-3.sstr-api.xyz
-    port: 443
-    password: x3MdzdVvaffC97yuHt
-    alpn:
-      - h2
-      - http/1.1
 proxy-groups:
   - 
     name: Proxy
@@ -776,12 +425,28 @@ rule-providers:
 
 rules:
   - PROCESS-NAME,v2ray,DIRECT
-  - PROCESS-NAME,Surge%203,DIRECT
-  - PROCESS-NAME,ss-local,DIRECT
-  - PROCESS-NAME,privoxy,DIRECT
+  - PROCESS-NAME,xray,DIRECT
+  - PROCESS-NAME,naive,DIRECT
   - PROCESS-NAME,trojan,DIRECT
   - PROCESS-NAME,trojan-go,DIRECT
-  - PROCESS-NAME,naive,DIRECT
+  - PROCESS-NAME,ss-local,DIRECT
+  - PROCESS-NAME,privoxy,DIRECT
+  - PROCESS-NAME,leaf,DIRECT
+  - PROCESS-NAME,v2ray.exe,DIRECT
+  - PROCESS-NAME,xray.exe,DIRECT
+  - PROCESS-NAME,naive.exe,DIRECT
+  - PROCESS-NAME,trojan.exe,DIRECT
+  - PROCESS-NAME,trojan-go.exe,DIRECT
+  - PROCESS-NAME,ss-local.exe,DIRECT
+  - PROCESS-NAME,privoxy.exe,DIRECT
+  - PROCESS-NAME,leaf.exe,DIRECT
+  - PROCESS-NAME,Surge,DIRECT
+  - PROCESS-NAME,Surge 2,DIRECT
+  - PROCESS-NAME,Surge 3,DIRECT
+  - PROCESS-NAME,Surge 4,DIRECT
+  - PROCESS-NAME,Surge%202,DIRECT
+  - PROCESS-NAME,Surge%203,DIRECT
+  - PROCESS-NAME,Surge%204,DIRECT
   - PROCESS-NAME,Thunder,DIRECT
   - PROCESS-NAME,DownloadService,DIRECT
   - PROCESS-NAME,qBittorrent,DIRECT
@@ -792,17 +457,27 @@ rules:
   - PROCESS-NAME,NetTransport,DIRECT
   - PROCESS-NAME,uTorrent,DIRECT
   - PROCESS-NAME,WebTorrent,DIRECT
+  - PROCESS-NAME,aria2c.exe,DIRECT
+  - PROCESS-NAME,BitComet.exe,DIRECT
+  - PROCESS-NAME,fdm.exe,DIRECT
+  - PROCESS-NAME,NetTransport.exe,DIRECT
+  - PROCESS-NAME,qbittorrent.exe,DIRECT
+  - PROCESS-NAME,Thunder.exe,DIRECT
+  - PROCESS-NAME,ThunderVIP.exe,DIRECT
+  - PROCESS-NAME,transmission-daemon.exe,DIRECT
+  - PROCESS-NAME,transmission-qt.exe,DIRECT
+  - PROCESS-NAME,uTorrent.exe,DIRECT
+  - PROCESS-NAME,WebTorrent.exe,DIRECT
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,REJECT
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
-  - RULE-SET,cncidr,DIRECT
-  - RULE-SET,lancidr,DIRECT
-  - RULE-SET,google,Proxy
-  - RULE-SET,proxy,Proxy
-  - RULE-SET,gfw,Proxy
+  - RULE-SET,google,DIRECT
+  - RULE-SET,proxy,PROXY
   - RULE-SET,direct,DIRECT
-  - RULE-SET,telegramcidr,Proxy
+  - RULE-SET,telegramcidr,PROXY
   - GEOIP,,DIRECT
-  - GEOIP,CN,DIRECT
-  - MATCH,Proxy
+  - GEOIP,CN,DIRECT,no-resolve
+  - MATCH,PROXY
