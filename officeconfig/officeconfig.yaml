@@ -1,16 +1,4 @@
 # https://clashparty.org/docs/guide/override/yaml
-
-
-proxies:
-  - {name: skyNAS, server: sky.tail8b6726.ts.net, port: 29979, type: socks5, username: songqi, password: meiyoumima, tls: true, skip-cert-verify: true, udp: true}
-
-proxy-groups:
-  - name: 内网访问
-    type: select
-    proxies:
-      - skyNAS 
-      - DIRECT # 备选：如果你在家连 WiFi，直接连也可以
-
 # 使用 prepend-rules 确保规则优先级最高，插队到所有规则的最前面
 prepend-rules:
   # --- 1. 公司内网强制直连 (白名单) ---
@@ -30,5 +18,5 @@ prepend-rules:
   - DOMAIN-SUFFIX,flz.aplusunion.com,DIRECT
 
   # --- 2. 制走代理 (特殊指定) ---
-  - IP-CIDR,43.137.0.0/16,Proxy,no-resolve #星空组网
-  - DOMAIN-SUFFIX,starvpn.cn,Proxy #星空组网
+  - IP-CIDR,43.137.0.0/16,Proxies,no-resolve #星空组网
+  - DOMAIN-SUFFIX,starvpn.cn,Proxies #星空组网
