@@ -1,1 +1,34 @@
-111
+# https://clashparty.org/docs/guide/override/yaml
+
+
+proxies:
+  - {name: skyNAS, server: sky.tail8b6726.ts.net, port: 29979, type: socks5, username: songqi, password: meiyoumima, tls: true, skip-cert-verify: true, udp: true}
+
+proxy-groups:
+  - name: 内网访问
+    type: select
+    proxies:
+      - skyNAS 
+      - DIRECT # 备选：如果你在家连 WiFi，直接连也可以
+
+# 使用 prepend-rules 确保规则优先级最高，插队到所有规则的最前面
+prepend-rules:
+  # --- 1. 公司内网强制直连 (白名单) ---
+  # 这里的 no-resolve 防止 DNS 解析干扰，提升连接速度
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  
+  # 如果你有具体的内网域名（例如内网 OA 系统），可以在这里添加
+  - DOMAIN-KEYWORD,cmcc,DIRECT
+  - DOMAIN-KEYWORD,cmos,DIRECT
+  - DOMAIN-KEYWORD,chinamobile,DIRECT
+  - DOMAIN-KEYWORD,msftconnecttest,DIRECT
+  - DOMAIN-SUFFIX,139.com,DIRECT
+  #其他直连
+  - DOMAIN-SUFFIX,flz.aplusunion.com,DIRECT
+
+  # --- 2. 制走代理 (特殊指定) ---
+  - IP-CIDR,43.137.0.0/16,Proxy,no-resolve #星空组网
+  - DOMAIN-SUFFIX,starvpn.cn,Proxy #星空组网
