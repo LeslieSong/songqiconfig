@@ -1,3 +1,8 @@
+# 覆写订阅配置
+
+https://raw.githubusercontent.com/LeslieSong/songqiconfig/refs/heads/main/officeconfig/officeconfig.yaml
+https://cdn.jsdelivr.net/gh/LeslieSong/songqiconfig@main/officeconfig/officeconfig.yaml
+
 # 订阅配置
 
 ---
